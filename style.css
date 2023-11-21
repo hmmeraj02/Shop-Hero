@@ -1,0 +1,159 @@
+nav {
+  background-color: rgb(24, 24, 126);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+}
+
+/* slider section start */
+.carousel-caption {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.text-container {
+  flex-wrap: wrap;
+}
+
+.slider-container {
+  background: linear-gradient(45deg, pink, rgb(104, 104, 232));
+}
+
+.carousel-inner {
+  margin: 5%;
+  width: 95%;
+  padding-left: 5%;
+}
+/* slider section end */
+
+/* grid section start */
+.ipad {
+  padding: 10px;
+}
+
+.earpod {
+  padding: 10px;
+}
+
+.iwatch {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.iwatch .image-fluid {
+  flex: 0 0 50%;
+}
+
+.iwatch img {
+  width: 50%;
+  height: auto;
+}
+
+.iwatch .text-container {
+  flex: 0 0 50%;
+  padding: 20px;
+}
+
+@media (max-width: 576px) {
+  .iwatch {
+    flex-direction: column;
+  }
+
+  .iwatch .img-fluid {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+
+  .iwatch .text-container {
+    flex: 0 0 100%;
+  }
+}
+/* grid section end */
+
+.card {
+  box-shadow: 2px 2px 2px 2px;
+  padding: 10px;
+}
+
+.img-fluid {
+  width: 200px;
+  height: auto;
+}
+
+.ads-container {
+  background-color: rgb(150, 150, 224);
+}
+
+@media (max-width: 576px) {
+  .ads-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* ads section start */
+.ads-text h3 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px;
+  color: rgb(24, 24, 126);
+}
+
+.ads-text p {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+  color: rgb(28, 28, 43);
+}
+/* ads section end */
+
+/* footer section start */
+footer {
+  width: 100%;
+  background-color: black;
+  background-blend-mode: overlay;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fa-solid {
+  margin-right: 7px;
+}
+.footer-title {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.icons {
+  margin-top: 20px;
+}
+.fa-brands {
+  margin: 10px;
+  font-size: 20px;
+}
+.services {
+  margin-top: 20px;
+}
+.supports {
+  margin-top: 20px;
+}
+/* footer section end  */
